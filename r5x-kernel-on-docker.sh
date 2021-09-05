@@ -37,6 +37,7 @@ export PATH="$PWD/compiler/bin:$PATH"
 export KBUILD_COMPILER_STRING="$PWD/compiler/bin/clang --version | head -n 1 | perl -pe 's/\(http.*?\)//gs' | sed -e 's/  */ /g' -e 's/[[:space:]]*$//')"
 export ARCH=arm64
 export KBUILD_BUILD_USER="MataneTjok"
+export KBUILD_BUILD_HOST="HapeGemink"
 KBUILD_BUILD_TIMESTAMP=$(date)
 
 if [ ${TYPE} = "DEBUG" ]; then

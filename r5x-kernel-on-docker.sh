@@ -29,7 +29,7 @@ KERN_IMG=$KERNEL_DIR/out/arch/arm64/boot/Image.gz-dtb
 
 git submodule update --init --recursive
 git clone https://github.com/NganuCoeg/AnyKernel3
-git clone https://github.com/xyz-prjkt/xRageTC-clang compiler --depth=1
+git clone https://github.com/NganuCoeg/MataneTjok-clang compiler --depth=1
 
 # Build kernel
 export TZ="Asia/Jakarta"
